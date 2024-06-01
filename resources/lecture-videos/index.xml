@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytical Techniques</title>
+      <link>/resources/analytical-techniques/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/analytical-techniques/data.json</guid>
+      <description>Description: Guest Joel Fried demonstrates the tools of the PokerTracker software in this lecture.
+Instructor: Joel Fried</description>
+    </item>
+    
+    <item>
+      <title>Basic Strategy</title>
+      <link>/resources/basic-strategy/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/basic-strategy/data.json</guid>
+      <description>Description: Position, pot odds, implied odd, fold equity, and semi-bluffing strategies are discussed in this lecture, and several examples are analyzed.
+Instructor: Kevin Desmond</description>
+    </item>
+    
+    <item>
+      <title>Decision Making</title>
+      <link>/resources/decision-making/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/decision-making/data.json</guid>
+      <description>Description: In this session, guest Matt Hawrilenko discusses game theory, value betting and bluffing, how to maximize the value of the entire set of hands, and exploitive strategies.
+Instructor: Matt Hawrilenko</description>
+    </item>
+    
+    <item>
+      <title>Game Theory</title>
+      <link>/resources/game-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/game-theory/data.json</guid>
+      <description>Description: Guest Bill Chen discusses Cepheus, explains regret minimization, Counterfactual Regret, and improvements, and the extension of computer solutions to other games including big bet and multi-player games.
+Instructor: Bill Chen</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Poker Theory</title>
+      <link>/resources/introduction-to-poker-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/introduction-to-poker-theory/data.json</guid>
+      <description>Description: An overview of the course requirements, expectations, software used for tournaments, advanced techniques, and some basics tools and concepts for the class are discussed in this lecture.
+Instructor: Kevin Desmond</description>
+    </item>
+    
+    <item>
+      <title>Lecture Videos</title>
+      <link>/video_galleries/lecture-videos/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/video_galleries/lecture-videos/data.json</guid>
+      <description> Introduction to Poker Theory Analytical Techniques Basic Strategy Preflop Analysis Tournament Play Poker Economics Game Theory Decision Making </description>
+    </item>
+    
+    <item>
+      <title>Poker Economics</title>
+      <link>/resources/poker-economics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/poker-economics/data.json</guid>
+      <description>Description: Guest Aaron Brown discusses the history of poker, its influence on futures trading in nineteenth century United States.
+Instructor: Aaron Brown</description>
+    </item>
+    
+    <item>
+      <title>Preflop Analysis</title>
+      <link>/resources/preflop-analysis/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/preflop-analysis/data.json</guid>
+      <description>Description: This lecture focuses on how to play the pre-flop as close to optimally as possible by analyzing several scenarios.
+Instructor: Kevin Desmond</description>
+    </item>
+    
+    <item>
+      <title>Tournament Play</title>
+      <link>/resources/tournament-play/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/tournament-play/data.json</guid>
+      <description>Description: In this session Kevin Desmond discusses the tournament life cycle, flop-turn-river play, poker psychology, bankroll management, and the class league results.
+Instructor: Kevin Desmond</description>
+    </item>
+    
+  </channel>
+</rss>

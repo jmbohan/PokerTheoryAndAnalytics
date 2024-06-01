@@ -1,0 +1,2953 @@
+1
+00:00:00,080 --> 00:00:02,430
+The following content is
+provided under a Creative
+
+2
+00:00:02,430 --> 00:00:03,820
+Commons license.
+
+3
+00:00:03,820 --> 00:00:06,060
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,060 --> 00:00:10,150
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,150 --> 00:00:12,700
+To make a donation or to
+view additional materials
+
+6
+00:00:12,700 --> 00:00:16,600
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:16,600 --> 00:00:17,258
+at ocw.mit.edu.
+
+8
+00:00:20,382 --> 00:00:21,840
+KEVIN DESMOND: All
+right, everyone.
+
+9
+00:00:21,840 --> 00:00:25,080
+So welcome to 15.S50,
+Poker Theory and Analytics.
+
+10
+00:00:25,080 --> 00:00:27,080
+So this is going to be
+Monday, Wednesday, Friday
+
+11
+00:00:27,080 --> 00:00:28,900
+from 3:30 to 5:00.
+
+12
+00:00:28,900 --> 00:00:32,659
+I just got a room for a
+review session on Tuesday,
+
+13
+00:00:32,659 --> 00:00:35,910
+Thursday for anyone who needs
+to catch up a little bit.
+
+14
+00:00:35,910 --> 00:00:38,700
+The class is here, 4370.
+
+15
+00:00:38,700 --> 00:00:39,450
+I'm Kevin Desmond.
+
+16
+00:00:39,450 --> 00:00:40,741
+I'm going to be the instructor.
+
+17
+00:00:40,741 --> 00:00:42,380
+Paul Mende is the
+faculty advisor.
+
+18
+00:00:42,380 --> 00:00:45,500
+And this is worth
+three H credits.
+
+19
+00:00:45,500 --> 00:00:48,300
+The game play aspect--
+so this is what I did.
+
+20
+00:00:48,300 --> 00:00:50,010
+And I think this is really cool.
+
+21
+00:00:50,010 --> 00:00:54,390
+So Poker Stars gave us our own
+private league for only MIT
+
+22
+00:00:54,390 --> 00:00:56,400
+people in this course.
+
+23
+00:00:56,400 --> 00:01:00,730
+And my goal here is
+to separate people
+
+24
+00:01:00,730 --> 00:01:03,930
+who are fairly new from people
+who are very competitive,
+
+25
+00:01:03,930 --> 00:01:08,460
+because I don't want someone not
+to pass the course because they
+
+26
+00:01:08,460 --> 00:01:10,020
+happen to be not
+that great at poker.
+
+27
+00:01:10,020 --> 00:01:12,950
+So I created this thing
+called the Beginners' League.
+
+28
+00:01:12,950 --> 00:01:14,680
+And these are going
+to be Daily Turbos.
+
+29
+00:01:14,680 --> 00:01:17,790
+Turbos means they're
+fast-ish tournaments.
+
+30
+00:01:17,790 --> 00:01:20,800
+And to get the game play
+credit, you can cash,
+
+31
+00:01:20,800 --> 00:01:23,960
+you can make money
+in one of them,
+
+32
+00:01:23,960 --> 00:01:26,610
+or you can play in 10 of them.
+
+33
+00:01:26,610 --> 00:01:29,720
+So those who are struggling
+can get this game play credit
+
+34
+00:01:29,720 --> 00:01:34,910
+by playing 10 tournaments, which
+is about a 10-hour commitment.
+
+35
+00:01:34,910 --> 00:01:37,510
+Let's go into the
+game play aspect more.
+
+36
+00:01:37,510 --> 00:01:39,680
+So Poker Stars created
+this private league for us,
+
+37
+00:01:39,680 --> 00:01:40,780
+which is really cool.
+
+38
+00:01:40,780 --> 00:01:45,870
+So Poker Stars is generally
+considered the most reputable
+
+39
+00:01:45,870 --> 00:01:47,160
+online poker site.
+
+40
+00:01:47,160 --> 00:01:48,520
+That's why we use them.
+
+41
+00:01:48,520 --> 00:01:50,725
+So they have two
+different types of games.
+
+42
+00:01:50,725 --> 00:01:52,600
+So they have real money
+and play money games.
+
+43
+00:01:52,600 --> 00:01:57,540
+Now if you're in the US,
+you can't do real money.
+
+44
+00:01:57,540 --> 00:01:59,565
+It used to be something
+that was very gray area.
+
+45
+00:02:02,480 --> 00:02:05,130
+And then there was one
+poker site which turned out
+
+46
+00:02:05,130 --> 00:02:10,720
+to be legitimately like a
+Ponzi scheme, and as a result,
+
+47
+00:02:10,720 --> 00:02:15,260
+now poker in the US is like
+much more black and white,
+
+48
+00:02:15,260 --> 00:02:17,220
+definitely not OK
+for real money.
+
+49
+00:02:17,220 --> 00:02:20,050
+However, their play money
+scene is pretty resilient,
+
+50
+00:02:20,050 --> 00:02:22,102
+and that's what we're
+taking advantage of here.
+
+51
+00:02:22,102 --> 00:02:24,060
+The Poker Stars play
+money scene is broken down
+
+52
+00:02:24,060 --> 00:02:25,290
+into two different things.
+
+53
+00:02:25,290 --> 00:02:29,340
+They have public games, where
+you can just go and play
+
+54
+00:02:29,340 --> 00:02:33,950
+for play chips against anyone
+in the world, which is cool.
+
+55
+00:02:33,950 --> 00:02:35,690
+And you can do that,
+and I recommend
+
+56
+00:02:35,690 --> 00:02:38,469
+you give it a shot just to
+get used to the software.
+
+57
+00:02:38,469 --> 00:02:40,010
+In addition, you
+could do home games,
+
+58
+00:02:40,010 --> 00:02:42,410
+which is what we're
+generally going to be doing.
+
+59
+00:02:42,410 --> 00:02:46,650
+That's what they call
+their private leagues.
+
+60
+00:02:46,650 --> 00:02:50,230
+So in the private leagues,
+in their home games,
+
+61
+00:02:50,230 --> 00:02:51,700
+they have this showcase.
+
+62
+00:02:51,700 --> 00:02:54,090
+And you might notice
+as soon as you log in
+
+63
+00:02:54,090 --> 00:02:56,210
+that the MIT League, Poker
+Theory and Analytics,
+
+64
+00:02:56,210 --> 00:02:57,570
+is already at the top.
+
+65
+00:02:57,570 --> 00:02:58,650
+That's not just for us.
+
+66
+00:02:58,650 --> 00:02:59,950
+That's for everyone.
+
+67
+00:02:59,950 --> 00:03:02,630
+Anyone in the world who
+logs into Poker Stars
+
+68
+00:03:02,630 --> 00:03:05,080
+and looks at home games
+has the MIT League
+
+69
+00:03:05,080 --> 00:03:07,530
+at the top, which I
+think is really cool.
+
+70
+00:03:07,530 --> 00:03:09,910
+So to access this, I'll send
+a more specific instructions
+
+71
+00:03:09,910 --> 00:03:10,410
+later.
+
+72
+00:03:10,410 --> 00:03:13,904
+I gave you guys just the
+passcode of what you need.
+
+73
+00:03:13,904 --> 00:03:15,820
+But to actually get
+there, what you need to do
+
+74
+00:03:15,820 --> 00:03:17,610
+is, you log into Poker Stars.
+
+75
+00:03:17,610 --> 00:03:21,120
+You go to this button,
+which is a little house,
+
+76
+00:03:21,120 --> 00:03:22,490
+to access home games.
+
+77
+00:03:22,490 --> 00:03:24,560
+And then you want
+to join a game.
+
+78
+00:03:24,560 --> 00:03:29,376
+And what you do is, you put
+the Club ID, which is 557832.
+
+79
+00:03:29,376 --> 00:03:31,250
+You put the invitation
+code, which you're all
+
+80
+00:03:31,250 --> 00:03:32,690
+going to have on Stellar.
+
+81
+00:03:32,690 --> 00:03:35,860
+And then you put your real
+name, preferably the one that's
+
+82
+00:03:35,860 --> 00:03:37,600
+listed in the course,
+because I actually
+
+83
+00:03:37,600 --> 00:03:39,910
+have to approve everyone
+that joins the league,
+
+84
+00:03:39,910 --> 00:03:42,470
+and I can't do it just based
+on someone's screen name.
+
+85
+00:03:42,470 --> 00:03:44,594
+And I guess you have to
+agree to some sort of terms
+
+86
+00:03:44,594 --> 00:03:45,470
+and conditions.
+
+87
+00:03:45,470 --> 00:03:46,930
+So let's talk
+about hand history.
+
+88
+00:03:46,930 --> 00:03:49,100
+So a lot of analytics
+are going to be based off
+
+89
+00:03:49,100 --> 00:03:53,470
+of hand histories, which are
+just text files that Poker
+
+90
+00:03:53,470 --> 00:03:58,830
+Stars gives you to the extent
+that you indicate that you want
+
+91
+00:03:58,830 --> 00:04:00,060
+to save them down.
+
+92
+00:04:00,060 --> 00:04:03,030
+So these are kind of
+jumbled messes of text.
+
+93
+00:04:03,030 --> 00:04:05,110
+Each line just shows
+one thing that happens.
+
+94
+00:04:05,110 --> 00:04:07,110
+And you might get
+used to reading it,
+
+95
+00:04:07,110 --> 00:04:09,691
+or might not,
+depending on how much
+
+96
+00:04:09,691 --> 00:04:10,940
+you're going to scrutinize it.
+
+97
+00:04:10,940 --> 00:04:12,450
+But more importantly,
+you can use
+
+98
+00:04:12,450 --> 00:04:15,320
+these in all the data
+analytic programs
+
+99
+00:04:15,320 --> 00:04:16,589
+that we're going to use.
+
+100
+00:04:16,589 --> 00:04:19,550
+In particular, Poker
+Tracker runs off of that.
+
+101
+00:04:19,550 --> 00:04:24,770
+You'll load just thousands
+of hands into Poker Tracker,
+
+102
+00:04:24,770 --> 00:04:26,400
+and it'll do analytics for you.
+
+103
+00:04:26,400 --> 00:04:29,540
+It knows exactly what's going on
+based on that format, which is
+
+104
+00:04:29,540 --> 00:04:31,390
+generally considered universal.
+
+105
+00:04:31,390 --> 00:04:35,805
+And then for the sake of
+visualizing these hands--
+
+106
+00:04:35,805 --> 00:04:37,180
+if you just read
+it, that's fine.
+
+107
+00:04:37,180 --> 00:04:39,170
+But then if you want
+to show other people,
+
+108
+00:04:39,170 --> 00:04:41,420
+I'm recommending we use
+something called the Universal
+
+109
+00:04:41,420 --> 00:04:44,360
+Hand History Replayer, which
+is something that's free.
+
+110
+00:04:44,360 --> 00:04:47,950
+And what it does, it just reads
+the hands, and it plays them.
+
+111
+00:04:47,950 --> 00:04:50,940
+It animates what happened as
+if you were seeing it for real.
+
+112
+00:04:50,940 --> 00:04:52,430
+So the deal with
+hand histories is,
+
+113
+00:04:52,430 --> 00:04:57,080
+if you're a real money player,
+Poker Stars dedicates databases
+
+114
+00:04:57,080 --> 00:05:00,440
+of hand histories so
+that, if you want,
+
+115
+00:05:00,440 --> 00:05:03,810
+you can request all your
+hand histories at any time.
+
+116
+00:05:03,810 --> 00:05:09,520
+For play money players, they
+let you capture your own hand
+
+117
+00:05:09,520 --> 00:05:13,200
+histories if you want, but they
+definitely don't save them.
+
+118
+00:05:13,200 --> 00:05:15,369
+So the reason I'm
+showing you this now,
+
+119
+00:05:15,369 --> 00:05:17,160
+and I'm going to email
+it out to you later,
+
+120
+00:05:17,160 --> 00:05:19,520
+is if you lose your
+hand histories,
+
+121
+00:05:19,520 --> 00:05:21,300
+so you don't capture
+them in time,
+
+122
+00:05:21,300 --> 00:05:23,340
+you'll never get them back.
+
+123
+00:05:23,340 --> 00:05:26,967
+So make sure you're actually
+capturing hand histories,
+
+124
+00:05:26,967 --> 00:05:29,550
+because we're going to be using
+that for a lot of the analysis
+
+125
+00:05:29,550 --> 00:05:31,212
+we do.
+
+126
+00:05:31,212 --> 00:05:32,670
+OK, so let's talk
+about the league.
+
+127
+00:05:32,670 --> 00:05:34,530
+And honestly, I
+think this league
+
+128
+00:05:34,530 --> 00:05:36,000
+is going to be really cool.
+
+129
+00:05:36,000 --> 00:05:39,450
+Usually the
+evolution of a player
+
+130
+00:05:39,450 --> 00:05:42,310
+is they're terrible at
+poker, and then they
+
+131
+00:05:42,310 --> 00:05:45,250
+start becoming good at
+playing against bad people.
+
+132
+00:05:45,250 --> 00:05:47,817
+And then when they actually
+start playing for real,
+
+133
+00:05:47,817 --> 00:05:49,400
+they get crushed
+again because they're
+
+134
+00:05:49,400 --> 00:05:52,160
+used to playing against
+other bad people.
+
+135
+00:05:52,160 --> 00:05:54,610
+So this will actually
+hopefully get
+
+136
+00:05:54,610 --> 00:05:57,330
+you used to playing
+against other people who
+
+137
+00:05:57,330 --> 00:06:01,110
+are playing correctly, which is
+not something you can commonly
+
+138
+00:06:01,110 --> 00:06:06,480
+learn just from playing
+around with your friends.
+
+139
+00:06:06,480 --> 00:06:10,980
+In addition through playing
+in these online leagues,
+
+140
+00:06:10,980 --> 00:06:14,020
+you can collect stats
+that you could never
+
+141
+00:06:14,020 --> 00:06:15,410
+get from playing live.
+
+142
+00:06:15,410 --> 00:06:22,030
+And I think this is why the
+live tournament scene is
+
+143
+00:06:22,030 --> 00:06:24,140
+dominated by online pros.
+
+144
+00:06:24,140 --> 00:06:30,230
+It's because no live pro
+can get as many hands
+
+145
+00:06:30,230 --> 00:06:34,350
+or analyze their play in the
+way that you can do online.
+
+146
+00:06:34,350 --> 00:06:35,980
+It's not even comparable.
+
+147
+00:06:35,980 --> 00:06:41,500
+So this is given-- even if your
+whole intention is to only play
+
+148
+00:06:41,500 --> 00:06:45,330
+live the entire rest your life,
+doing this type of analytics
+
+149
+00:06:45,330 --> 00:06:48,380
+would give you a chance to
+learn at a much faster rate
+
+150
+00:06:48,380 --> 00:06:51,530
+and learn things that
+you would never see live.
+
+151
+00:06:51,530 --> 00:06:57,020
+So every week we're going to
+have a major tournament, which
+
+152
+00:06:57,020 --> 00:06:59,450
+is basically going to be
+the same structure, maybe
+
+153
+00:06:59,450 --> 00:07:02,250
+a little bit slower, than
+the ones we do daily,
+
+154
+00:07:02,250 --> 00:07:04,470
+except they're going
+to have real prizes.
+
+155
+00:07:04,470 --> 00:07:08,970
+So Akuna is giving us, for
+their first tournament,
+
+156
+00:07:08,970 --> 00:07:10,270
+Beats headphones.
+
+157
+00:07:10,270 --> 00:07:15,250
+And Apple TV, Bose speakers
+and a lot of gift cards.
+
+158
+00:07:15,250 --> 00:07:16,800
+And then for their
+second tournament,
+
+159
+00:07:16,800 --> 00:07:19,770
+they're giving us
+all of those things
+
+160
+00:07:19,770 --> 00:07:23,430
+plus an iPad Air
+and an iPad Mini.
+
+161
+00:07:23,430 --> 00:07:26,650
+But we're not done yet.
+
+162
+00:07:26,650 --> 00:07:29,480
+Because this class is
+focused on playing live,
+
+163
+00:07:29,480 --> 00:07:32,130
+we're going to end the
+class with a live tournament
+
+164
+00:07:32,130 --> 00:07:34,940
+sponsored by Optiver
+on the 31st, which
+
+165
+00:07:34,940 --> 00:07:37,240
+is the day after the
+last day of the class.
+
+166
+00:07:37,240 --> 00:07:38,990
+So after the league's
+over, and after you
+
+167
+00:07:38,990 --> 00:07:42,430
+guys are good at poker,
+you'll have an opportunity
+
+168
+00:07:42,430 --> 00:07:47,080
+to play each other in a live
+tournament, where their prize
+
+169
+00:07:47,080 --> 00:07:51,740
+pool is all of the Akuna
+prizes, plus a PlayStation
+
+170
+00:07:51,740 --> 00:07:56,300
+4, plus an iPad, plus a
+Kindle, and plus a GoPro.
+
+171
+00:07:56,300 --> 00:08:03,430
+I want this to reflect
+the type of things
+
+172
+00:08:03,430 --> 00:08:06,830
+an online, multi-table
+tournament player would do.
+
+173
+00:08:06,830 --> 00:08:10,810
+How it normally works is,
+during the week, and basically
+
+174
+00:08:10,810 --> 00:08:13,300
+every single day, there
+is a uniform amount
+
+175
+00:08:13,300 --> 00:08:15,810
+of tournaments that will
+just run every single day
+
+176
+00:08:15,810 --> 00:08:17,320
+at the top of the hour.
+
+177
+00:08:17,320 --> 00:08:20,240
+And these pros will
+just grind those out.
+
+178
+00:08:20,240 --> 00:08:21,660
+They'll get used
+to the structure.
+
+179
+00:08:21,660 --> 00:08:25,930
+And that's where they'll
+kind of grind their teeth.
+
+180
+00:08:25,930 --> 00:08:28,120
+And then on the
+weekends, that's when
+
+181
+00:08:28,120 --> 00:08:34,390
+you get a lot of the square
+money, a lot of the newer guys
+
+182
+00:08:34,390 --> 00:08:36,240
+who only play poker
+on the weekend.
+
+183
+00:08:36,240 --> 00:08:39,690
+And those are more gimmicky,
+idiosyncratic tournaments,
+
+184
+00:08:39,690 --> 00:08:41,940
+but also the highest value.
+
+185
+00:08:41,940 --> 00:08:46,650
+So that's why I'm producing the
+tournament structure like this,
+
+186
+00:08:46,650 --> 00:08:48,360
+where the bulk of
+your tournaments
+
+187
+00:08:48,360 --> 00:08:50,980
+will be very similar
+to each other.
+
+188
+00:08:50,980 --> 00:08:53,060
+But then the tournaments
+that really matter
+
+189
+00:08:53,060 --> 00:08:56,712
+will be completely different,
+at least relatively different.
+
+190
+00:08:56,712 --> 00:08:57,920
+So that's why I'm doing that.
+
+191
+00:08:57,920 --> 00:08:59,870
+That'll make you
+get a feel for what
+
+192
+00:08:59,870 --> 00:09:01,590
+these guys have to go through.
+
+193
+00:09:01,590 --> 00:09:03,520
+So let's talk about turbos.
+
+194
+00:09:03,520 --> 00:09:09,340
+Turbos let you focus on
+pre-flop decisions, which
+
+195
+00:09:09,340 --> 00:09:12,020
+are the area where I
+think there is the most
+
+196
+00:09:12,020 --> 00:09:16,360
+to learn among people
+who are new at poker.
+
+197
+00:09:16,360 --> 00:09:18,680
+Basically, all of
+your value that you're
+
+198
+00:09:18,680 --> 00:09:21,320
+losing in tournament is
+from screwing up pre-flop.
+
+199
+00:09:21,320 --> 00:09:24,950
+No one gets that right live
+because it's really difficult
+
+200
+00:09:24,950 --> 00:09:29,320
+to be able to feel comfortable
+doing what's generally
+
+201
+00:09:29,320 --> 00:09:30,150
+considered right.
+
+202
+00:09:30,150 --> 00:09:32,570
+And we're going to spend
+a lot of time on pre-flop.
+
+203
+00:09:32,570 --> 00:09:35,250
+But these turbos encourage
+you to do that sort of thing,
+
+204
+00:09:35,250 --> 00:09:37,300
+because live is a
+lot of pre-flop,
+
+205
+00:09:37,300 --> 00:09:40,810
+and you're going to be doing
+that in the turbos online, too.
+
+206
+00:09:40,810 --> 00:09:42,840
+In addition, no
+one wants to spend
+
+207
+00:09:42,840 --> 00:09:44,580
+six hours doing a tournament.
+
+208
+00:09:44,580 --> 00:09:46,290
+So I'm making these
+turbos so you can
+
+209
+00:09:46,290 --> 00:09:48,440
+be in and out in 45 minutes.
+
+210
+00:09:48,440 --> 00:09:50,300
+And then you boot up
+another tournament,
+
+211
+00:09:50,300 --> 00:09:54,620
+or you can be done with
+poker for that night.
+
+212
+00:09:54,620 --> 00:09:56,890
+In addition, you have
+the opportunity--
+
+213
+00:09:56,890 --> 00:09:58,770
+you can play as many
+tournaments as you want.
+
+214
+00:09:58,770 --> 00:10:01,880
+It's common for pros to do
+something called multi-tabling
+
+215
+00:10:01,880 --> 00:10:06,900
+which is they'll do multiple
+tournaments at the same time.
+
+216
+00:10:06,900 --> 00:10:10,150
+For the beginners, I'd probably
+recommend you just do one.
+
+217
+00:10:10,150 --> 00:10:13,090
+But for the regular
+league, have at that.
+
+218
+00:10:13,090 --> 00:10:16,290
+you want to do like all four
+tournaments at the same time,
+
+219
+00:10:16,290 --> 00:10:18,450
+go ahead, to the extent
+that they overlap
+
+220
+00:10:18,450 --> 00:10:20,410
+with each other a little bit.
+
+221
+00:10:20,410 --> 00:10:20,910
+OK.
+
+222
+00:10:20,910 --> 00:10:22,576
+So that's the end
+with the prize league.
+
+223
+00:10:22,576 --> 00:10:25,890
+So the schedule is, we're
+going to go through what
+
+224
+00:10:25,890 --> 00:10:28,390
+I'm calling basic
+strategy, which
+
+225
+00:10:28,390 --> 00:10:35,270
+are the basic axioms that we're
+going to be using in order
+
+226
+00:10:35,270 --> 00:10:40,122
+to analyze the decision
+making process in poker.
+
+227
+00:10:40,122 --> 00:10:42,080
+Then we're going to be
+doing pre-flop analysis.
+
+228
+00:10:42,080 --> 00:10:44,690
+And we're going to be doing
+a lot of this, because this
+
+229
+00:10:44,690 --> 00:10:48,930
+is really where the
+value add is going to be,
+
+230
+00:10:48,930 --> 00:10:51,080
+is getting this right.
+
+231
+00:10:51,080 --> 00:10:54,750
+I think the way
+that we can tackle
+
+232
+00:10:54,750 --> 00:10:57,460
+this thing is kind of a
+way I recommend that you
+
+233
+00:10:57,460 --> 00:10:59,370
+learn anything complicated.
+
+234
+00:10:59,370 --> 00:11:03,450
+So we're going to
+break this down
+
+235
+00:11:03,450 --> 00:11:06,140
+into three different sections.
+
+236
+00:11:06,140 --> 00:11:10,220
+Fundamental concept, practice,
+which are actually implementing
+
+237
+00:11:10,220 --> 00:11:14,610
+those concepts when you have
+10 seconds to make a decision,
+
+238
+00:11:14,610 --> 00:11:17,240
+and then more advanced stuff.
+
+239
+00:11:17,240 --> 00:11:20,550
+With regard to
+concepts, I'm going
+
+240
+00:11:20,550 --> 00:11:23,080
+to call this the basic
+framework for decision making.
+
+241
+00:11:23,080 --> 00:11:25,250
+It's being unexploitable.
+
+242
+00:11:25,250 --> 00:11:28,870
+You want to get to the level
+when you sit down at a table,
+
+243
+00:11:28,870 --> 00:11:30,960
+every pro in the room
+doesn't turn and go,
+
+244
+00:11:30,960 --> 00:11:32,830
+I want to sit at
+that guy's table.
+
+245
+00:11:32,830 --> 00:11:35,590
+You want to be a
+slightly winning player
+
+246
+00:11:35,590 --> 00:11:39,240
+way before you want to
+become a huge winning player.
+
+247
+00:11:39,240 --> 00:11:42,200
+In order to let you
+know the type of thing
+
+248
+00:11:42,200 --> 00:11:46,750
+that we're learning, I'm going
+to label the slides with this,
+
+249
+00:11:46,750 --> 00:11:50,000
+to indicate that this
+is like a basic concept.
+
+250
+00:11:50,000 --> 00:11:54,200
+Learn this thing
+before you move on.
+
+251
+00:11:54,200 --> 00:11:58,260
+The advanced stuff
+is, once you learn
+
+252
+00:11:58,260 --> 00:12:03,660
+how to do things-- which how
+to do things is pretty broad--
+
+253
+00:12:03,660 --> 00:12:07,040
+we're going to learn minor
+adjustments that we can do
+
+254
+00:12:07,040 --> 00:12:10,690
+to get quite a bit
+of extra money,
+
+255
+00:12:10,690 --> 00:12:14,700
+like how to grind out that
+additional half big blind
+
+256
+00:12:14,700 --> 00:12:16,710
+an hour out of our opponents.
+
+257
+00:12:20,380 --> 00:12:22,990
+So any real deviations
+from what we normally
+
+258
+00:12:22,990 --> 00:12:25,680
+do, in addition to meta game.
+
+259
+00:12:25,680 --> 00:12:27,810
+Meta game is always
+fun, like anything
+
+260
+00:12:27,810 --> 00:12:30,950
+not related to the
+hand to hand decision
+
+261
+00:12:30,950 --> 00:12:32,940
+making process, like
+table selection,
+
+262
+00:12:32,940 --> 00:12:37,100
+or bankroll
+management, or deciding
+
+263
+00:12:37,100 --> 00:12:38,510
+whether or not to play.
+
+264
+00:12:38,510 --> 00:12:40,010
+That stuff is really
+fun, and that's
+
+265
+00:12:40,010 --> 00:12:42,001
+to be indicated
+by this ace here.
+
+266
+00:12:42,001 --> 00:12:42,500
+OK.
+
+267
+00:12:42,500 --> 00:12:45,290
+So I'm going to label those
+slides for anything that's
+
+268
+00:12:45,290 --> 00:12:48,320
+considered advanced, and stuff
+you should only really do
+
+269
+00:12:48,320 --> 00:12:50,511
+when you get the concepts down.
+
+270
+00:12:50,511 --> 00:12:52,052
+And then a lot of
+this class is going
+
+271
+00:12:52,052 --> 00:12:58,700
+to be focused on practice, which
+is how to actually implement
+
+272
+00:12:58,700 --> 00:13:02,700
+these concepts on a day to
+day basis when you're actually
+
+273
+00:13:02,700 --> 00:13:05,020
+playing, especially live.
+
+274
+00:13:05,020 --> 00:13:07,220
+We are not going to have
+all the information.
+
+275
+00:13:07,220 --> 00:13:09,020
+We're not going to
+have calculators,
+
+276
+00:13:09,020 --> 00:13:12,760
+and we're not going to have that
+much time to make a decision.
+
+277
+00:13:12,760 --> 00:13:16,810
+So how to apply these in real
+time, making rules of thumb,
+
+278
+00:13:16,810 --> 00:13:18,830
+figuring out what
+you can just ignore
+
+279
+00:13:18,830 --> 00:13:20,930
+and what you have
+to definitely do,
+
+280
+00:13:20,930 --> 00:13:23,160
+and then some the
+psychology stuff related
+
+281
+00:13:23,160 --> 00:13:25,020
+to actually performing
+live is going
+
+282
+00:13:25,020 --> 00:13:26,940
+to be what I'm calling
+practice, which
+
+283
+00:13:26,940 --> 00:13:31,640
+is going to be indicated by
+that poker chip with a P in it.
+
+284
+00:13:31,640 --> 00:13:36,710
+Let's talk about what I'm
+bringing to the table here.
+
+285
+00:13:36,710 --> 00:13:40,710
+So this course is
+primarily going
+
+286
+00:13:40,710 --> 00:13:42,200
+to be from my perspective.
+
+287
+00:13:42,200 --> 00:13:50,120
+And the decisions about what
+I'm going to teach you here,
+
+288
+00:13:50,120 --> 00:13:53,160
+and the value calls
+I'm making, is
+
+289
+00:13:53,160 --> 00:13:57,100
+going to come from what I
+consider the appropriate way
+
+290
+00:13:57,100 --> 00:13:58,920
+for someone to play poker.
+
+291
+00:13:58,920 --> 00:14:02,810
+So my background is that I
+was an online multi-table
+
+292
+00:14:02,810 --> 00:14:06,320
+tournament grinder, not
+because I was a great pro,
+
+293
+00:14:06,320 --> 00:14:09,270
+but because I sat
+more than I played.
+
+294
+00:14:09,270 --> 00:14:11,810
+I was definitely a
+person who did not
+
+295
+00:14:11,810 --> 00:14:15,346
+play every single tournament.
+
+296
+00:14:15,346 --> 00:14:17,265
+I told you the World
+Series of Poker
+
+297
+00:14:17,265 --> 00:14:19,540
+has like 25 different
+tournaments.
+
+298
+00:14:19,540 --> 00:14:21,060
+10 are Texas Hold'em.
+
+299
+00:14:21,060 --> 00:14:24,920
+And then they have an Omaha
+tournament, and a horse
+
+300
+00:14:24,920 --> 00:14:26,740
+tournament, which is
+a combination of five
+
+301
+00:14:26,740 --> 00:14:27,930
+different games.
+
+302
+00:14:27,930 --> 00:14:30,860
+And what is common is
+that any pro who plays one
+
+303
+00:14:30,860 --> 00:14:32,110
+plays them all.
+
+304
+00:14:32,110 --> 00:14:35,870
+I consider that ridiculous
+for someone who's actually
+
+305
+00:14:35,870 --> 00:14:40,040
+interested in making any sort of
+money or career playing poker.
+
+306
+00:14:40,040 --> 00:14:43,990
+So I'm definitely someone
+who prefers identifying
+
+307
+00:14:43,990 --> 00:14:46,570
+value and monetizing it.
+
+308
+00:14:46,570 --> 00:14:48,410
+So anyway, that's
+the perspective
+
+309
+00:14:48,410 --> 00:14:50,500
+that I'm going to be
+teaching this course from.
+
+310
+00:14:50,500 --> 00:14:52,260
+I like ROI.
+
+311
+00:14:52,260 --> 00:14:54,020
+It's a great efficiency metric.
+
+312
+00:14:56,620 --> 00:15:00,710
+Usually you try to maximize
+your ROI up until the point
+
+313
+00:15:00,710 --> 00:15:02,590
+where it's below
+some sort of hourly
+
+314
+00:15:02,590 --> 00:15:05,810
+that you set for
+yourself, because one
+
+315
+00:15:05,810 --> 00:15:08,970
+of the ways you supplement ROI
+is by moving down in stakes.
+
+316
+00:15:08,970 --> 00:15:11,140
+Usually lower stakes
+are easier games.
+
+317
+00:15:11,140 --> 00:15:13,110
+You should have a
+higher win rate.
+
+318
+00:15:13,110 --> 00:15:17,700
+But that win rate's multiplied
+by a much lower number.
+
+319
+00:15:17,700 --> 00:15:21,380
+So usually you're going to move
+around in stakes until you have
+
+320
+00:15:21,380 --> 00:15:24,810
+a good ROI, but hopefully above
+what you consider your lowest
+
+321
+00:15:24,810 --> 00:15:28,871
+amount that you can feel
+comfortable earning.
+
+322
+00:15:28,871 --> 00:15:30,870
+In addition, I want to
+focus on live tournaments
+
+323
+00:15:30,870 --> 00:15:33,970
+because who knows what's
+going to happen to online?
+
+324
+00:15:33,970 --> 00:15:36,390
+Whereas I think live
+tournaments are very social,
+
+325
+00:15:36,390 --> 00:15:38,490
+they're very public.
+
+326
+00:15:38,490 --> 00:15:41,240
+Everyone knows who
+wins live tournaments.
+
+327
+00:15:41,240 --> 00:15:44,980
+So I'm going to teach in
+a way such that focuses
+
+328
+00:15:44,980 --> 00:15:46,465
+on these types of values.
+
+329
+00:15:49,360 --> 00:15:49,860
+OK.
+
+330
+00:15:49,860 --> 00:15:57,847
+So let's move on to some
+of the concepts and tools
+
+331
+00:15:57,847 --> 00:15:58,930
+that we're going to learn.
+
+332
+00:15:58,930 --> 00:16:04,050
+So we're done learning about
+what we're actually going
+
+333
+00:16:04,050 --> 00:16:05,360
+to be doing during this class.
+
+334
+00:16:05,360 --> 00:16:07,570
+So let's learn a
+little bit about poker.
+
+335
+00:16:07,570 --> 00:16:11,800
+So first thing is, we're going
+to be using PokerTracker a lot.
+
+336
+00:16:11,800 --> 00:16:14,120
+So I'm going to
+email out exactly
+
+337
+00:16:14,120 --> 00:16:15,840
+how to install this thing.
+
+338
+00:16:15,840 --> 00:16:19,620
+PokerTracker has
+donated 115 licenses
+
+339
+00:16:19,620 --> 00:16:22,350
+to their product for us.
+
+340
+00:16:22,350 --> 00:16:25,290
+And then our next
+lesson, on Wednesday,
+
+341
+00:16:25,290 --> 00:16:28,400
+is going to be Joel
+Fried teaching us
+
+342
+00:16:28,400 --> 00:16:32,690
+how to use this thing and going
+through some of the analytics.
+
+343
+00:16:32,690 --> 00:16:34,240
+So one other thing
+that I like using
+
+344
+00:16:34,240 --> 00:16:35,600
+is the Universal Replayer.
+
+345
+00:16:35,600 --> 00:16:39,510
+And what this thing does is it
+just visualizes hand histories.
+
+346
+00:16:39,510 --> 00:16:43,440
+So you'll feed it a hand
+history in a text file.
+
+347
+00:16:43,440 --> 00:16:44,470
+It animates it.
+
+348
+00:16:44,470 --> 00:16:47,510
+It probably does other
+things, but it's free.
+
+349
+00:16:47,510 --> 00:16:49,910
+And this thing's been
+around for a while.
+
+350
+00:16:49,910 --> 00:16:51,984
+I've not even sure if
+it's supported anymore.
+
+351
+00:16:51,984 --> 00:16:53,400
+But it's a thing
+that I'm used to.
+
+352
+00:16:53,400 --> 00:16:56,470
+So this is what it looks like.
+
+353
+00:16:56,470 --> 00:16:57,995
+So you give it a
+hand, and then it
+
+354
+00:16:57,995 --> 00:17:01,340
+reproduces what you might
+have seen if you actually
+
+355
+00:17:01,340 --> 00:17:02,110
+played that hand.
+
+356
+00:17:04,800 --> 00:17:06,400
+So let's move on to a concept.
+
+357
+00:17:06,400 --> 00:17:07,400
+So stack size.
+
+358
+00:17:07,400 --> 00:17:09,349
+So this might seem
+fairly simple,
+
+359
+00:17:09,349 --> 00:17:12,240
+but we ought to make sure we're
+talking about the same thing
+
+360
+00:17:12,240 --> 00:17:13,660
+when we go through this.
+
+361
+00:17:13,660 --> 00:17:17,520
+So your stack size,
+it's the value
+
+362
+00:17:17,520 --> 00:17:19,200
+of the chips in front of you.
+
+363
+00:17:19,200 --> 00:17:21,066
+So that's fairly normal.
+
+364
+00:17:21,066 --> 00:17:23,440
+But we have this thing called
+effective stack size, which
+
+365
+00:17:23,440 --> 00:17:25,981
+is what we're usually going to
+be talking about when we refer
+
+366
+00:17:25,981 --> 00:17:31,320
+to stack, which is the
+minimum of your stack
+
+367
+00:17:31,320 --> 00:17:34,330
+or the next biggest
+stack after you.
+
+368
+00:17:34,330 --> 00:17:36,610
+And the way to
+think about this is
+
+369
+00:17:36,610 --> 00:17:41,680
+the number of chips you could
+possibly lose in this one hand.
+
+370
+00:17:41,680 --> 00:17:44,200
+That's what your
+relevant stack size is.
+
+371
+00:17:44,200 --> 00:17:48,640
+And the way you make decisions
+will depend on your effective
+
+372
+00:17:48,640 --> 00:17:50,530
+stack much more
+than anything else.
+
+373
+00:17:50,530 --> 00:17:53,805
+So an example of
+this would be, say
+
+374
+00:17:53,805 --> 00:18:01,650
+you're in a heads up situation
+where you're the hero here
+
+375
+00:18:01,650 --> 00:18:03,700
+on the small blind.
+
+376
+00:18:03,700 --> 00:18:07,580
+Big blind has,
+whatever, 300 chips.
+
+377
+00:18:07,580 --> 00:18:10,940
+And you have some amount
+of chips with queens.
+
+378
+00:18:17,520 --> 00:18:19,800
+So if you have 1,500
+chips, and so does
+
+379
+00:18:19,800 --> 00:18:32,270
+he-- say blinds are like 10/20--
+you have, what, like 50 times
+
+380
+00:18:32,270 --> 00:18:33,880
+the blinds combined here.
+
+381
+00:18:33,880 --> 00:18:37,780
+So this is a pretty
+different hand than aces.
+
+382
+00:18:37,780 --> 00:18:39,740
+Why?
+
+383
+00:18:39,740 --> 00:18:44,090
+So say that you raise with
+queens, and then he raises you.
+
+384
+00:18:44,090 --> 00:18:48,375
+So you raise to 60, he raises
+you to 200, you raise to 600,
+
+385
+00:18:48,375 --> 00:18:51,850
+and he pushes to 1,500.
+
+386
+00:18:51,850 --> 00:18:55,030
+Your queens are probably not
+really that good anymore.
+
+387
+00:18:55,030 --> 00:18:56,830
+It matters how many
+chips you have here.
+
+388
+00:18:56,830 --> 00:19:04,170
+However, if you have 300
+chips, you raise with queens,
+
+389
+00:19:04,170 --> 00:19:06,810
+and then he pushes over,
+you can't fold that.
+
+390
+00:19:06,810 --> 00:19:11,220
+You might as well have aces,
+and it makes your hands,
+
+391
+00:19:11,220 --> 00:19:13,770
+the way you play hands,
+materially different.
+
+392
+00:19:13,770 --> 00:19:15,970
+That's why chip size
+matters in general.
+
+393
+00:19:15,970 --> 00:19:18,840
+When the chip stack
+is low, you're
+
+394
+00:19:18,840 --> 00:19:21,500
+playing these two hands
+basically identical.
+
+395
+00:19:21,500 --> 00:19:24,850
+You're saying-- you're
+just playing this range.
+
+396
+00:19:24,850 --> 00:19:28,660
+However, when we're talking
+about effective chip stack,
+
+397
+00:19:28,660 --> 00:19:35,050
+it's the same thing, where
+even if you have 1,500
+
+398
+00:19:35,050 --> 00:19:39,667
+and he has 300, if you
+raise, he's going to push.
+
+399
+00:19:39,667 --> 00:19:42,000
+You don't have the opportunity
+to do that back and forth
+
+400
+00:19:42,000 --> 00:19:42,720
+anymore.
+
+401
+00:19:42,720 --> 00:19:46,000
+So you might as well
+have 300 with regard
+
+402
+00:19:46,000 --> 00:19:47,590
+to your decision making here.
+
+403
+00:19:47,590 --> 00:19:49,640
+That's why we're looking
+at the effective stack,
+
+404
+00:19:49,640 --> 00:19:53,010
+because it really matters who
+has the least number of chips,
+
+405
+00:19:53,010 --> 00:19:55,510
+because that determines when
+the action is going to be over.
+
+406
+00:19:59,650 --> 00:20:01,885
+So really, I like this
+definition the most,
+
+407
+00:20:01,885 --> 00:20:04,670
+the most amount of chips that
+you can lose in the hand.
+
+408
+00:20:04,670 --> 00:20:08,430
+It's a lot more, I think,
+simple to think about
+
+409
+00:20:08,430 --> 00:20:10,970
+than this min formula.
+
+410
+00:20:10,970 --> 00:20:11,470
+OK.
+
+411
+00:20:11,470 --> 00:20:14,097
+And then we're almost always
+talking about effective stack.
+
+412
+00:20:14,097 --> 00:20:15,430
+Let's talk about Dan Harrington.
+
+413
+00:20:15,430 --> 00:20:23,890
+So Dan Harrington is a player
+whose style I very much like.
+
+414
+00:20:23,890 --> 00:20:28,280
+His nickname's Action
+Dan, which the consensus
+
+415
+00:20:28,280 --> 00:20:31,640
+is, he just kind of gave
+himself, because he's
+
+416
+00:20:31,640 --> 00:20:37,620
+considered Mr. Fundamental, like
+tight aggressive ABC player.
+
+417
+00:20:37,620 --> 00:20:41,480
+So this playing style, this
+temperament, tight aggressive,
+
+418
+00:20:41,480 --> 00:20:48,050
+is something that is used to
+characterize basic playing
+
+419
+00:20:48,050 --> 00:20:49,050
+styles.
+
+420
+00:20:49,050 --> 00:20:51,200
+So let's quickly go
+through what those are.
+
+421
+00:20:51,200 --> 00:20:55,100
+So there are two
+different axes here.
+
+422
+00:20:55,100 --> 00:20:59,020
+There's how often
+you bet, where bet
+
+423
+00:20:59,020 --> 00:21:00,970
+means you are
+raising the stakes,
+
+424
+00:21:00,970 --> 00:21:03,490
+so either you bet or you raise.
+
+425
+00:21:03,490 --> 00:21:05,920
+And then here's
+how often you call.
+
+426
+00:21:05,920 --> 00:21:09,110
+Either you call a lot or
+you call not that much.
+
+427
+00:21:09,110 --> 00:21:12,360
+You can get a good feel for
+the type of person someone
+
+428
+00:21:12,360 --> 00:21:14,957
+is by what box they fill in.
+
+429
+00:21:14,957 --> 00:21:15,790
+So these have names.
+
+430
+00:21:15,790 --> 00:21:17,900
+So someone who's
+tight aggressive,
+
+431
+00:21:17,900 --> 00:21:20,110
+you would just refer
+to them as Tag, which
+
+432
+00:21:20,110 --> 00:21:23,520
+is like what Dan Harrington is.
+
+433
+00:21:23,520 --> 00:21:27,000
+You bet when you have
+good hands and you
+
+434
+00:21:27,000 --> 00:21:30,100
+fold when you have bad hands.
+
+435
+00:21:30,100 --> 00:21:33,890
+Another possibly winning
+strategy is loose aggressive,
+
+436
+00:21:33,890 --> 00:21:37,360
+Lag, where you certainly bet
+when you have good hands,
+
+437
+00:21:37,360 --> 00:21:40,000
+but you will see a lot
+of cards before you'll
+
+438
+00:21:40,000 --> 00:21:41,100
+give up on a hand.
+
+439
+00:21:41,100 --> 00:21:44,810
+You're definitely
+willing to call a lot.
+
+440
+00:21:44,810 --> 00:21:49,870
+These, type passive, are
+not pronounceable words,
+
+441
+00:21:49,870 --> 00:21:53,650
+so the community generally
+came up with different words
+
+442
+00:21:53,650 --> 00:21:54,600
+to describe these.
+
+443
+00:21:57,290 --> 00:22:00,710
+So a tight passive
+person is weak.
+
+444
+00:22:00,710 --> 00:22:03,800
+They're someone who you
+can completely run over,
+
+445
+00:22:03,800 --> 00:22:06,600
+because they fold when
+they have a bad hand,
+
+446
+00:22:06,600 --> 00:22:08,505
+they check when they
+have a good hand.
+
+447
+00:22:11,520 --> 00:22:14,120
+I guess they would
+be called rocks.
+
+448
+00:22:14,120 --> 00:22:16,750
+You never need to worry about
+having a big losing night
+
+449
+00:22:16,750 --> 00:22:17,880
+against these guys.
+
+450
+00:22:17,880 --> 00:22:19,840
+So someone who's type
+passive is generally
+
+451
+00:22:19,840 --> 00:22:22,170
+considered playing
+sub-optionally.
+
+452
+00:22:22,170 --> 00:22:26,100
+And then the loose
+passive people
+
+453
+00:22:26,100 --> 00:22:31,060
+are described-- this icon,
+which I forget what it's from.
+
+454
+00:22:31,060 --> 00:22:35,340
+I think it might be from an
+old version of PokerTracker,
+
+455
+00:22:35,340 --> 00:22:39,140
+or maybe it was on Party
+Poker or something.
+
+456
+00:22:39,140 --> 00:22:41,900
+But everyone loved
+seeing this icon which
+
+457
+00:22:41,900 --> 00:22:46,630
+you could label people as,
+because a loose passive person
+
+458
+00:22:46,630 --> 00:22:48,280
+is what?
+
+459
+00:22:48,280 --> 00:22:51,390
+They are a calling machine.
+
+460
+00:22:51,390 --> 00:22:53,450
+That's what that
+stands for, and it
+
+461
+00:22:53,450 --> 00:22:56,820
+means that when you
+have a hand, they
+
+462
+00:22:56,820 --> 00:22:58,840
+will call all of your bets.
+
+463
+00:22:58,840 --> 00:23:01,510
+You will extract
+value out of them.
+
+464
+00:23:01,510 --> 00:23:04,580
+But when they have
+a hand, they're
+
+465
+00:23:04,580 --> 00:23:06,520
+OK with letting you
+look at your draws
+
+466
+00:23:06,520 --> 00:23:10,290
+to make a decision about whether
+by the river you have a hand
+
+467
+00:23:10,290 --> 00:23:12,300
+or not.
+
+468
+00:23:12,300 --> 00:23:16,020
+There's virtually no
+way that these guys
+
+469
+00:23:16,020 --> 00:23:17,750
+are making money in poker.
+
+470
+00:23:17,750 --> 00:23:22,280
+I think it would be, like
+over a realistic sample size,
+
+471
+00:23:22,280 --> 00:23:26,590
+there's no type of player who
+could fit in this quadrant
+
+472
+00:23:26,590 --> 00:23:29,640
+and be good enough on any
+other metric to actually
+
+473
+00:23:29,640 --> 00:23:32,330
+be making money in poker.
+
+474
+00:23:32,330 --> 00:23:36,430
+So in general how
+we look at this is,
+
+475
+00:23:36,430 --> 00:23:40,230
+we would call this
+Tag guy solid ABC.
+
+476
+00:23:40,230 --> 00:23:42,340
+That's what I'm recommending
+you guys play as.
+
+477
+00:23:46,050 --> 00:23:49,790
+Tag players, as a
+quadrant, are going
+
+478
+00:23:49,790 --> 00:23:51,200
+to be the biggest winners.
+
+479
+00:23:51,200 --> 00:23:53,180
+Lag players, someone
+who's very aggressive
+
+480
+00:23:53,180 --> 00:23:56,130
+and plays a lot of
+hands, could possibly
+
+481
+00:23:56,130 --> 00:23:57,640
+be a pretty good winner.
+
+482
+00:24:01,260 --> 00:24:03,880
+It depends on the
+type of game, and then
+
+483
+00:24:03,880 --> 00:24:06,720
+their opponent and their
+ability to pick spots.
+
+484
+00:24:06,720 --> 00:24:09,310
+But there are a lot
+of big Lag winners.
+
+485
+00:24:09,310 --> 00:24:13,050
+There are not a lot
+of big weak winners.
+
+486
+00:24:13,050 --> 00:24:17,000
+And there are not
+a lot of calling
+
+487
+00:24:17,000 --> 00:24:21,320
+machines, loose passive
+players, who are not big losers.
+
+488
+00:24:21,320 --> 00:24:24,520
+So anytime you see-- this is
+a definition of someone who's
+
+489
+00:24:24,520 --> 00:24:27,460
+a complete fish, a huge
+donater to the game.
+
+490
+00:24:27,460 --> 00:24:31,210
+And your ability to
+recognize this type of thing
+
+491
+00:24:31,210 --> 00:24:33,470
+will help you find
+good games to play,
+
+492
+00:24:33,470 --> 00:24:36,200
+when you see someone
+doing this kind of thing.
+
+493
+00:24:36,200 --> 00:24:37,780
+Anyway, back to Action Dan.
+
+494
+00:24:37,780 --> 00:24:45,480
+So Dan Harrington is a
+pretty good poker player.
+
+495
+00:24:45,480 --> 00:24:47,050
+He's been around the block.
+
+496
+00:24:47,050 --> 00:24:50,400
+He won the main event
+back in 1995, when it had,
+
+497
+00:24:50,400 --> 00:24:52,060
+like, 300 people in it.
+
+498
+00:24:52,060 --> 00:24:57,100
+He has two World Series of Poker
+bracelets and one World Poker
+
+499
+00:24:57,100 --> 00:24:58,770
+Tour title.
+
+500
+00:24:58,770 --> 00:25:00,450
+But anyway, so
+Harrington popularized
+
+501
+00:25:00,450 --> 00:25:02,100
+this thing called
+the M-ratio, which
+
+502
+00:25:02,100 --> 00:25:04,760
+was invented by someone else.
+
+503
+00:25:04,760 --> 00:25:09,080
+So the M-ratio was invented by
+this guy Paul Magriel, who's
+
+504
+00:25:09,080 --> 00:25:12,900
+a backgammon theorist,
+apparently one of the best
+
+505
+00:25:12,900 --> 00:25:15,880
+backgammon players in the
+world, commentator for the WSOB,
+
+506
+00:25:15,880 --> 00:25:21,910
+World Series of Backgammon,
+and eight WSOB final tables.
+
+507
+00:25:21,910 --> 00:25:24,220
+Anyway, so he's supposedly
+really, really good
+
+508
+00:25:24,220 --> 00:25:26,784
+at math, even by MIT standards.
+
+509
+00:25:26,784 --> 00:25:28,700
+But he invented this
+thing called the M-ratio,
+
+510
+00:25:28,700 --> 00:25:30,560
+but then it never caught
+on until Harrington
+
+511
+00:25:30,560 --> 00:25:31,570
+started doing it.
+
+512
+00:25:31,570 --> 00:25:34,360
+All right, so
+Harrington's M-ratio
+
+513
+00:25:34,360 --> 00:25:39,340
+is your effective stack
+divided by the sum
+
+514
+00:25:39,340 --> 00:25:41,600
+of the blinds and the empties.
+
+515
+00:25:41,600 --> 00:25:43,280
+So you'll hear
+people talk about,
+
+516
+00:25:43,280 --> 00:25:47,870
+like, oh, I had 10 big blinds,
+or 15 big blinds or whatever,
+
+517
+00:25:47,870 --> 00:25:49,670
+to talk about their chip stack.
+
+518
+00:25:49,670 --> 00:25:53,590
+But that has a
+fundamental problem.
+
+519
+00:25:53,590 --> 00:25:56,120
+It has a lot of
+different problems.
+
+520
+00:25:56,120 --> 00:26:02,060
+One is, it doesn't
+tell the story.
+
+521
+00:26:02,060 --> 00:26:07,300
+So the usual blind levels
+are like 1/2 or 2/4,
+
+522
+00:26:07,300 --> 00:26:10,570
+where the big blind is
+just twice the small blind.
+
+523
+00:26:10,570 --> 00:26:12,210
+So that's the assumption.
+
+524
+00:26:12,210 --> 00:26:17,390
+But if you're at a blind
+level that's like 1/3 or 3/5,
+
+525
+00:26:17,390 --> 00:26:19,650
+the number of big
+blinds you have is not
+
+526
+00:26:19,650 --> 00:26:22,520
+indicative of anything.
+
+527
+00:26:22,520 --> 00:26:24,970
+It's not indicative of how
+many hands you can see,
+
+528
+00:26:24,970 --> 00:26:28,590
+or how much you care about
+winning a pot pre-flop.
+
+529
+00:26:28,590 --> 00:26:30,610
+So using the blinds
+is bad, in addition
+
+530
+00:26:30,610 --> 00:26:36,310
+to, once you start having,
+like, if you're 50/100 blinds
+
+531
+00:26:36,310 --> 00:26:41,650
+and you have an ante of 25, you
+have basically half the stack
+
+532
+00:26:41,650 --> 00:26:43,960
+you had before, in
+realistic terms.
+
+533
+00:26:43,960 --> 00:26:47,780
+Just to get big blinds doesn't,
+in fact, earn antes at all.
+
+534
+00:26:47,780 --> 00:26:52,180
+And that's a major problem
+referring to it like that.
+
+535
+00:26:52,180 --> 00:26:55,960
+So using M seems to
+make a lot more sense.
+
+536
+00:26:55,960 --> 00:27:00,200
+So what it is, is it's basically
+the percentage of your stack
+
+537
+00:27:00,200 --> 00:27:02,430
+that is the blinds in the ante.
+
+538
+00:27:02,430 --> 00:27:04,550
+So it's like how
+many rounds of poker
+
+539
+00:27:04,550 --> 00:27:08,516
+you can survive if you just
+fold every single hand.
+
+540
+00:27:08,516 --> 00:27:10,140
+Of course, you're
+not going to do that.
+
+541
+00:27:10,140 --> 00:27:12,490
+Although I think that's what
+he's actually getting at,
+
+542
+00:27:12,490 --> 00:27:15,270
+because he uses M to
+refer to when you have
+
+543
+00:27:15,270 --> 00:27:17,750
+to make a move, which is not
+generally how I recommend
+
+544
+00:27:17,750 --> 00:27:18,780
+you do it.
+
+545
+00:27:18,780 --> 00:27:21,320
+I think it's more important,
+because it means how important
+
+546
+00:27:21,320 --> 00:27:22,740
+the blinds are to your stack.
+
+547
+00:27:25,930 --> 00:27:28,410
+The only reason anyone
+plays any hand of poker
+
+548
+00:27:28,410 --> 00:27:31,410
+is because someone
+wants to win the blind.
+
+549
+00:27:31,410 --> 00:27:36,040
+So even if you have
+kings, to some extent,
+
+550
+00:27:36,040 --> 00:27:38,720
+if you could win the
+blinds, 99% of the time
+
+551
+00:27:38,720 --> 00:27:40,110
+you would just do that.
+
+552
+00:27:40,110 --> 00:27:43,100
+You don't really all
+the time want someone
+
+553
+00:27:43,100 --> 00:27:45,064
+to go up against you.
+
+554
+00:27:45,064 --> 00:27:47,230
+So the blinds are really
+driving the decision making
+
+555
+00:27:47,230 --> 00:27:51,240
+process, at least pre-flop.
+
+556
+00:27:51,240 --> 00:27:53,280
+And the percentage
+that those blinds
+
+557
+00:27:53,280 --> 00:27:55,400
+are of your stack matter a lot.
+
+558
+00:27:55,400 --> 00:27:59,520
+If they're 1% of your
+stack, if your M is 100,
+
+559
+00:27:59,520 --> 00:28:01,390
+the blind basically
+don't matter at all.
+
+560
+00:28:01,390 --> 00:28:03,680
+Whatever happens
+after the blinds
+
+561
+00:28:03,680 --> 00:28:06,020
+is going to materially
+impact your decision.
+
+562
+00:28:06,020 --> 00:28:09,690
+Where if your M is 2, and the
+blinds are half your stack,
+
+563
+00:28:09,690 --> 00:28:11,327
+winning those seems
+really important.
+
+564
+00:28:11,327 --> 00:28:13,410
+You should do whatever you
+can to kind of maximize
+
+565
+00:28:13,410 --> 00:28:14,850
+your chance of winning that.
+
+566
+00:28:14,850 --> 00:28:20,710
+So that's why M is
+a good ratio here.
+
+567
+00:28:20,710 --> 00:28:22,940
+And then, in addition,
+for tournaments,
+
+568
+00:28:22,940 --> 00:28:28,000
+it makes it much easier
+to talk about hands
+
+569
+00:28:28,000 --> 00:28:31,220
+without having to worry
+about all the different parts
+
+570
+00:28:31,220 --> 00:28:33,020
+of the tournament life cycle.
+
+571
+00:28:33,020 --> 00:28:37,812
+If you have 1,500 chips
+and it's 50/100 blinds,
+
+572
+00:28:37,812 --> 00:28:39,520
+you can basically make
+the same decisions
+
+573
+00:28:39,520 --> 00:28:42,400
+as if you have 10 times as
+many chips at a level that's
+
+574
+00:28:42,400 --> 00:28:46,494
+10 times as high blinds.
+
+575
+00:28:46,494 --> 00:28:47,910
+You could just
+divide in your head
+
+576
+00:28:47,910 --> 00:28:49,451
+and basically make
+the same decision.
+
+577
+00:28:49,451 --> 00:28:52,820
+You don't need to
+worry about doing
+
+578
+00:28:52,820 --> 00:28:56,010
+anything different as a
+result of having more chips.
+
+579
+00:28:56,010 --> 00:28:58,400
+So Harrington
+invented or brought up
+
+580
+00:28:58,400 --> 00:29:01,880
+a bunch of other things
+that never really caught on.
+
+581
+00:29:01,880 --> 00:29:04,380
+He invented a thing called
+the queue ratio, which
+
+582
+00:29:04,380 --> 00:29:09,510
+is your stack size divided
+by the average stack size
+
+583
+00:29:09,510 --> 00:29:10,750
+in the tournament.
+
+584
+00:29:10,750 --> 00:29:14,500
+So I guess you might use this
+to get an idea of how far behind
+
+585
+00:29:14,500 --> 00:29:15,910
+you are in the tournament.
+
+586
+00:29:15,910 --> 00:29:17,456
+Like if your queue
+is 5, you don't
+
+587
+00:29:17,456 --> 00:29:18,580
+need to be that aggressive.
+
+588
+00:29:18,580 --> 00:29:21,090
+But if your queue
+is .2, you have
+
+589
+00:29:21,090 --> 00:29:23,340
+a lot of catching up to do
+before you're realistically
+
+590
+00:29:23,340 --> 00:29:25,660
+going to be anywhere
+near the money.
+
+591
+00:29:25,660 --> 00:29:27,910
+I don't really make
+decisions based on that.
+
+592
+00:29:27,910 --> 00:29:29,250
+I think the community doesn't.
+
+593
+00:29:29,250 --> 00:29:33,070
+So it never really
+caught on for anything.
+
+594
+00:29:33,070 --> 00:29:36,200
+I've never actually
+heard anyone use that.
+
+595
+00:29:36,200 --> 00:29:37,700
+So he came up with
+this thing called
+
+596
+00:29:37,700 --> 00:29:41,210
+effective M, which
+makes sense, if you
+
+597
+00:29:41,210 --> 00:29:43,350
+look at M from his perspective.
+
+598
+00:29:43,350 --> 00:29:51,010
+Effective M, it's your M
+divided by-- you multiply by how
+
+599
+00:29:51,010 --> 00:29:52,870
+shorthanded your table is.
+
+600
+00:29:52,870 --> 00:29:56,230
+And it gives you the
+equivalent of the number
+
+601
+00:29:56,230 --> 00:29:59,310
+of 10-handed tables
+you could survive.
+
+602
+00:29:59,310 --> 00:30:01,780
+It just means that,
+say you have 10 Ms,
+
+603
+00:30:01,780 --> 00:30:05,070
+you could survive
+10 rounds of blinds.
+
+604
+00:30:05,070 --> 00:30:07,020
+If you have three
+people at your table,
+
+605
+00:30:07,020 --> 00:30:09,950
+you can't survive for
+another like six hours
+
+606
+00:30:09,950 --> 00:30:12,630
+because you actually pay
+the blind every other hand.
+
+607
+00:30:12,630 --> 00:30:14,020
+That's what
+effective M is doing.
+
+608
+00:30:14,020 --> 00:30:17,780
+It reduces your
+M proportionally.
+
+609
+00:30:17,780 --> 00:30:21,420
+Since he's looking at this
+from the perspective of when
+
+610
+00:30:21,420 --> 00:30:25,780
+you need to start making
+moves, it kind of makes sense
+
+611
+00:30:25,780 --> 00:30:28,350
+that your M would be reduced
+if you're shorthanded.
+
+612
+00:30:28,350 --> 00:30:31,520
+But I look at M from the
+perspective of how valuable it
+
+613
+00:30:31,520 --> 00:30:33,950
+is in terms of blinds.
+
+614
+00:30:33,950 --> 00:30:35,280
+So I don't really use that.
+
+615
+00:30:35,280 --> 00:30:38,070
+I don't know anyone who really
+uses effective M either.
+
+616
+00:30:38,070 --> 00:30:41,276
+But he invented them, and maybe
+they'll catch on eventually.
+
+617
+00:30:41,276 --> 00:30:43,150
+So I think that's going
+to be done for today.
+
+618
+00:30:43,150 --> 00:30:46,140
+Thanks, everyone, for
+a good first lecture.
